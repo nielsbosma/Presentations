@@ -1,13 +1,48 @@
 ---
 theme: excali-slide
-title: My a
+title: My Agentic Engineering Workflow - Engineering @ Ivy
+titleTemplate: '%s - Niels Bosma'
 info: |
-  Promptware — Software made of prompts.
-  A lightning talk about self-evolving agentic modules.
+  A talk about modern engineering workflows using CLIs, Promptware, and the Harness system.
+  Learn how to 10x your development velocity with agentic engineering.
+author: Niels Bosma
+keywords: agentic engineering, promptware, CLI, MCP, developer tools, AI workflow, automation
+description: Learn about modern agentic engineering workflows at Ivy - featuring CLIs over MCPs, Promptware (software made of prompts), and the Harness system that ties it all together.
 class: text-center
 drawings:
   persist: false
 transition: slide-left
+favicon: /qr.png
+htmlAttrs:
+  lang: en
+head:
+  meta:
+    - name: 'og:title'
+      content: 'My Agentic Engineering Workflow - Engineering @ Ivy'
+    - name: 'og:description'
+      content: 'Learn about modern agentic engineering workflows at Ivy - featuring CLIs over MCPs, Promptware (software made of prompts), and the Harness system that ties it all together.'
+    - name: 'og:image'
+      content: 'https://myagenticworkflow.sliplane.app/og-image.png'
+    - name: 'og:url'
+      content: 'https://myagenticworkflow.sliplane.app'
+    - name: 'og:type'
+      content: 'website'
+    - name: 'og:site_name'
+      content: 'My Agentic Engineering Workflow'
+    - name: 'twitter:card'
+      content: 'summary_large_image'
+    - name: 'twitter:title'
+      content: 'My Agentic Engineering Workflow - Engineering @ Ivy'
+    - name: 'twitter:description'
+      content: 'Learn about modern agentic engineering workflows at Ivy - featuring CLIs over MCPs, Promptware, and the Harness system.'
+    - name: 'twitter:image'
+      content: 'https://myagenticworkflow.sliplane.app/og-image.png'
+    - name: 'twitter:creator'
+      content: '@nielsbosma'
+    - name: 'description'
+      content: 'Learn about modern agentic engineering workflows at Ivy - featuring CLIs over MCPs, Promptware (software made of prompts), and the Harness system that ties it all together.'
+    - name: 'keywords'
+      content: 'agentic engineering, promptware, CLI, MCP, developer tools, AI workflow, automation, Ivy, Niels Bosma'
 ---
 
 # Engineering @ Ivy
