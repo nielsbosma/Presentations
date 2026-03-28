@@ -12,7 +12,6 @@ class: text-center
 drawings:
   persist: false
 transition: slide-left
-favicon: /qr.png
 htmlAttrs:
   lang: en
 head:
@@ -90,7 +89,7 @@ Don't have a CLI? **Build one.** It's easier than building an MCP server.
 <v-clicks>
 
 - I use **Spectre.Console** (.NET) with **OpenCLI** support — self-explaining CLIs
-- `<mycli> cli explains` — the CLI describes itself to the agent
+- `<mycli> cli explain` — the CLI describes itself to the agent
 - **LLM-optimized by default** — always returns YAML (compact, readable, token-efficient)
 - Wrapping an API into a CLI is a **5-minute task** for Claude Code
 
@@ -206,18 +205,14 @@ Each one started as a simple <code>Program.md</code>. Each one is now full of le
 </v-click>
 
 ---
-clicks: 3
+clicks: 6
 ---
 
 # Example: Meeting OSINT Automation (GWS)
+Every morning at 6 this promptware checks my calendar and compiles these emails
 
-<div class="relative">
 <div class="mx-auto w-full overflow-hidden rounded shadow-lg" style="height: calc(100vh - 10rem)">
 <img src="/example-meeting.png" class="w-full transition-transform duration-700 ease-in-out" :style="{ transform: `translateY(-${($clicks || 0) * 300}px)` }" />
-</div>
-<div class="absolute -right-4 -bottom-4 w-64 p-3 bg-yellow-200 text-black text-xs rotate-2 shadow-md" style="font-family: 'Comic Sans MS', cursive;">
-Promptware that runs every day at 6:00, uses Google Workspace CLI to get today's meetings, OSINTs the s*it out of that person, and sends me an email.
-</div>
 </div>
 
 ---
@@ -301,8 +296,10 @@ class: text-center
 
 Firmware + Program + Memory + Tools + Reflection
 
-<img src="/qr.png" class="mx-auto mt-6 w-40" />
+<div class="mt-6 text-sm opacity-50">
+<a href="https://github.com/nielsbosma/Promptware" target="_blank">github.com/nielsbosma/Promptware</a>
+</div>
 
-<div class="mt-2 text-sm opacity-50">
-github.com/nielsbosma/Promptware
+<div class="mt-8 p-4 bg-blue-500 bg-opacity-10 rounded-lg text-center">
+<strong>Interested in Ivy Tendril?</strong> ⭐ <a href="https://github.com/ivy-interactive/ivy-framework" target="_blank">Ivy Framework</a> on <carbon-logo-github class="inline" /> to get notified if and when we release it
 </div>
