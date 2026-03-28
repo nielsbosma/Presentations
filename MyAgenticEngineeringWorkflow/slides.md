@@ -14,36 +14,16 @@ drawings:
 transition: slide-left
 htmlAttrs:
   lang: en
-head:
-  meta:
-    - property: 'og:title'
-      content: 'My Agentic Engineering Workflow - Engineering @ Ivy'
-    - property: 'og:description'
-      content: 'Learn about modern agentic engineering workflows at Ivy - featuring CLIs over MCPs, Promptware (software made of prompts), and the Harness system that ties it all together.'
-    - property: 'og:image'
-      content: 'https://myagenticworkflow.sliplane.app/og-image.png'
-    - property: 'og:url'
-      content: 'https://myagenticworkflow.sliplane.app'
-    - property: 'og:type'
-      content: 'website'
-    - property: 'og:site_name'
-      content: 'My Agentic Engineering Workflow'
-    - property: 'og:locale'
-      content: 'en_US'
-    - name: 'twitter:card'
-      content: 'summary_large_image'
-    - name: 'twitter:title'
-      content: 'My Agentic Engineering Workflow - Engineering @ Ivy'
-    - name: 'twitter:description'
-      content: 'Learn about modern agentic engineering workflows at Ivy - featuring CLIs over MCPs, Promptware, and the Harness system.'
-    - name: 'twitter:image'
-      content: 'https://myagenticworkflow.sliplane.app/og-image.png'
-    - name: 'twitter:creator'
-      content: '@nielsbosma'
-    - name: 'description'
-      content: 'Learn about modern agentic engineering workflows at Ivy - featuring CLIs over MCPs, Promptware (software made of prompts), and the Harness system that ties it all together.'
-    - name: 'keywords'
-      content: 'agentic engineering, promptware, CLI, MCP, developer tools, AI workflow, automation, Ivy, Niels Bosma'
+seoMeta:
+  ogTitle: My Agentic Engineering Workflow - Engineering @ Ivy
+  ogDescription: Learn about modern agentic engineering workflows at Ivy - featuring CLIs over MCPs, Promptware, and the Harness system.
+  ogImage: https://myagenticworkflow.sliplane.app/og-image.png
+  ogUrl: https://myagenticworkflow.sliplane.app
+  twitterCard: summary_large_image
+  twitterTitle: My Agentic Engineering Workflow - Engineering @ Ivy
+  twitterDescription: Learn about modern agentic engineering workflows at Ivy - featuring CLIs over MCPs, Promptware, and the Harness system.
+  twitterImage: https://myagenticworkflow.sliplane.app/og-image.png
+  twitterSite: '@nielsbosma'
 ---
 
 # Engineering @ Ivy
